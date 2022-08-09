@@ -1,0 +1,29 @@
+package phasetwoproject;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.GenericServlet;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
+
+public class Validation extends GenericServlet{
+
+	@Override
+	public void service(ServletRequest req, ServletResponse resp) throws ServletException, IOException {
+		
+		String s1 = req.getParameter("userId");
+		String s2 = req.getParameter("passward");
+		PrintWriter pw= resp.getWriter();
+		if(s1=="Anand"&& s2=="12345")
+		{
+		
+			pw.println("User Validated");
+		}
+		else
+		{
+			pw.println("User Not validated");
+	}
+
+}
+}

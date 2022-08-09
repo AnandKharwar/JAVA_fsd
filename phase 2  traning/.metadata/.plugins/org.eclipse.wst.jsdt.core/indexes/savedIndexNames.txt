@@ -1,0 +1,19 @@
+INDEX VERSION 1.4+C:\ANAND drive\phase 2  traning\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+450842256.index
+4125434098.index
+2333531849.index
+439165540.index
+24798859.index
+1428518158.index
+3262224760.index
+2560552332.index
+2486852234.index
+2952101713.index
+885566459.index
+3639155159.index
+629385041.index
+701124600.index
+1050758211.index
+1910603296.index
+709236318.index
+2466807383.index
