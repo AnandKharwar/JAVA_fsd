@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Anand",
+      "lastName": "Kharwar",
+      "email": "abhi@gmail.com",
+      "mobile": "+91 234517855",
+      "salary": "400000"
+    },
+    {
+      "id": 3,
+      "firstName": "ABHI",
+      "lastName": "KUMAR",
+      "email": "abhi@gmail.com",
+      "mobile": "+91 234567855",
+      "salary": "40000"
+    },
+    {
+      "id": 5,
+      "firstName": "Anubhav",
+      "lastName": "kumar",
+      "email": "anan@gmail.com",
+      "mobile": "+91 123123456",
+      "salary": "60000"
+    },
+    {
+      "id": 6,
+      "firstName": "Hanuman",
+      "lastName": "jee",
+      "email": "hanuman@gmail.com",
+      "mobile": "+91 1231231230",
+      "salary": "123456"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
