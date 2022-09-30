@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T11:07:09 IST" name="com.simplileaern.testng.GroupTest" finished-at="2022-09-29T11:07:18 IST" duration-ms="8780">
+    <groups>
+      <group name="Chrome">
+        <method signature="GroupTest.launchChrome()[pri:0, instance:com.simplileaern.testng.GroupTest@689604d9]" name="launchChrome" class="com.simplileaern.testng.GroupTest"/>
+        <method signature="GroupTest.loginWithChrome()[pri:0, instance:com.simplileaern.testng.GroupTest@689604d9]" name="loginWithChrome" class="com.simplileaern.testng.GroupTest"/>
+      </group> <!-- Chrome -->
+    </groups>
+    <test started-at="2022-09-29T11:07:09 IST" name="Command line test" finished-at="2022-09-29T11:07:18 IST" duration-ms="8780">
+      <class name="com.simplileaern.testng.GroupTest">
+        <test-method signature="launchChrome()[pri:0, instance:com.simplileaern.testng.GroupTest@689604d9]" started-at="2022-09-29T11:07:09 IST" name="launchChrome" finished-at="2022-09-29T11:07:18 IST" duration-ms="8457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method signature="loginWithChrome()[pri:0, instance:com.simplileaern.testng.GroupTest@689604d9]" started-at="2022-09-29T11:07:18 IST" name="loginWithChrome" finished-at="2022-09-29T11:07:18 IST" depends-on-methods="com.simplileaern.testng.GroupTest.launchChrome" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithChrome -->
+      </class> <!-- com.simplileaern.testng.GroupTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.simplileaern.testng.GroupTest -->
+</testng-results>
